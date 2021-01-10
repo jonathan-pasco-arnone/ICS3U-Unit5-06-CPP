@@ -30,7 +30,7 @@ main() {
         std::cout << "Enter a number with decimals: ";
         std::cin >> numberInput;
         std::cout << "" << std::endl;
-        std::cout << "Number of decimals removed: ";
+        std::cout << "Number of to round off to: ";
         std::cin >> roundOffAmountInput;
         std::cout << "" << std::endl;
 
