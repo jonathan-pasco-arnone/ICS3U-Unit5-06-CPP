@@ -12,7 +12,7 @@ void changer(float &number, int roundOffAmount) {
     /* This function removes a specified amount of
     decimals form a specified number */
 
-    number = ((static_cast<int>(number * pow(10, roundOffAmount)))
+    number = ((static_cast<int>(number * pow(10, roundOffAmount) + 0.5))
                  / pow(10, roundOffAmount));
 }
 
